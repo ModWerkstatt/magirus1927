@@ -1,0 +1,328 @@
+function data()
+return {
+	boundingInfo = {
+		bbMax = { 5.75861, 2.1913909912109, 15.486728668213, },
+		bbMin = { -7.8465151786804, -2.1913909912109, -4.5153107643127, },
+	},
+	collider = {
+		params = {
+			halfExtents = { 10.561184883118, 2.1913909912109, 10.001019477844, },
+		},
+		transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+		type = "BOX",
+	},
+	lods = {
+		{
+			node = {
+				children = {
+					{
+						materials = { "vehicle/truck/magirus1927/rumpf.mtl", },
+						mesh = "vehicle/truck/magirus1927/rumpf_lod0.msh",
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/truck/magirus1927/rumpf.mtl", },
+						mesh = "vehicle/truck/magirus1927/rad_lod0.msh",
+						name = "rad_rechts",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3.8201758861542, -1.6602909564972, 1.2518306970596, 1, },
+					},
+					{
+						materials = { "vehicle/truck/magirus1927/rumpf.mtl", },
+						mesh = "vehicle/truck/magirus1927/rad_lod0.msh",
+						name = "rad_links",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 3.8201758861542, 1.6602909564972, 1.2518306970596, 1, },
+					},
+					{
+						materials = { "vehicle/truck/magirus1927/fenster.mtl", },
+						mesh = "vehicle/truck/magirus1927/glas_lod0.msh",
+						name = "fenster",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/truck/magirus1927/ladung.mtl", },
+						mesh = "vehicle/truck/magirus1927/stangen_lod0.msh",
+						name = "stangen",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/truck/magirus1927/ladung.mtl", },
+						mesh = "vehicle/truck/magirus1927/tank_lod0.msh",
+						name = "tank",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/truck/magirus1927/ladung.mtl", },
+						mesh = "vehicle/truck/magirus1927/plane_lod0.msh",
+						name = "plane",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/truck/magirus1927/rumpf.mtl", },
+						mesh = "vehicle/truck/magirus1927/hinterraeder_lod0.msh",
+						name = "hinterachse",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -5.5668201446533, 0, 1.2518306970596, 1, },
+					},
+					{
+						materials = { "vehicle/truck/magirus1927/glas_licht.mtl", },
+						mesh = "vehicle/truck/magirus1927/glas_licht_lod0.msh",
+						name = "fenster",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/truck/emissive/truck_all_lights.mtl", },
+						mesh = "vehicle/truck/magirus1927/licht_lod0.msh",
+						name = "fenster",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 0,
+			visibleTo = 519.02764892578,
+		},
+		{
+			node = {
+				children = {
+					{
+						materials = { "vehicle/truck/magirus1927/rumpf.mtl", },
+						mesh = "vehicle/truck/magirus1927/rumpf_lod1.msh",
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/truck/magirus1927/rumpf.mtl", },
+						mesh = "vehicle/truck/magirus1927/rad_lod1.msh",
+						name = "rad_rechts",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3.8201758861542, -1.6602909564972, 1.2518306970596, 1, },
+					},
+					{
+						materials = { "vehicle/truck/magirus1927/ladung.mtl", },
+						mesh = "vehicle/truck/magirus1927/stangen_lod1.msh",
+						name = "stangen",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 8.9601459503174, 1, },
+					},
+					{
+						materials = { "vehicle/truck/magirus1927/ladung.mtl", },
+						mesh = "vehicle/truck/magirus1927/tank_lod1.msh",
+						name = "tank",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, -6.8555474281311, 1, },
+					},
+					{
+						materials = { "vehicle/truck/magirus1927/ladung.mtl", },
+						mesh = "vehicle/truck/magirus1927/plane_lod1.msh",
+						name = "plane",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 3.6164128780365, 1, },
+					},
+					{
+						materials = { "vehicle/truck/magirus1927/rumpf.mtl", },
+						mesh = "vehicle/truck/magirus1927/hinterraeder_lod1.msh",
+						name = "hinterachse",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -5.5668201446533, 0, 1.2518306970596, 1, },
+					},
+					{
+						materials = { "vehicle/truck/magirus1927/fenster.mtl", },
+						mesh = "vehicle/truck/magirus1927/glas_lod1.msh",
+						name = "fenster",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 8.0017356872559, 0, 0, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 519.02764892578,
+			visibleTo = 1557.0828857422,
+		},
+		{
+			node = {
+				children = {
+					{
+						materials = { "vehicle/truck/magirus1927/rumpf.mtl", },
+						mesh = "vehicle/truck/magirus1927/rumpf_lod2.msh",
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/truck/magirus1927/rumpf.mtl", },
+						mesh = "vehicle/truck/magirus1927/rad_lod2.msh",
+						name = "rad_rechts",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3.8201758861542, -1.6602909564972, 1.2518306970596, 1, },
+					},
+					{
+						materials = { "vehicle/truck/magirus1927/ladung.mtl", },
+						mesh = "vehicle/truck/magirus1927/stangen_lod2.msh",
+						name = "stangen",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 8.9601459503174, 1, },
+					},
+					{
+						materials = { "vehicle/truck/magirus1927/ladung.mtl", },
+						mesh = "vehicle/truck/magirus1927/tank_lod2.msh",
+						name = "tank",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, -6.8555474281311, 1, },
+					},
+					{
+						materials = { "vehicle/truck/magirus1927/ladung.mtl", },
+						mesh = "vehicle/truck/magirus1927/plane_lod2.msh",
+						name = "plane",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 3.6164128780365, 1, },
+					},
+					{
+						materials = { "vehicle/truck/magirus1927/rumpf.mtl", },
+						mesh = "vehicle/truck/magirus1927/hinterraeder_lod2.msh",
+						name = "hinterachse",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -5.5668201446533, 0, 1.2518306970596, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 1557.0828857422,
+			visibleTo = 4671.2485351562,
+		},
+	},
+	metadata = {
+		availability = {
+			yearFrom = 1927,
+			yearTo = 1950,
+		},
+		cost = {
+			price = -1,
+		},
+		description = {
+			name = _("magirus1927_tank_name"),
+            description = _("magirus1927_tank_desc"),
+		},
+		emission = {
+			idleEmission = -1,
+			powerEmission = -1,
+			speedEmission = -1,
+		},
+		maintenance = {
+			lifespan = 21915,
+			runningCosts = -1,
+		},
+		particleSystem = {
+			emitters = {
+				{
+					child = 1,
+					color = { 0.13, 0.13, 0.13, },
+					frequency = 40,
+					initialAlpha = 0.5,
+					lifeTime = 1,
+					position = { -1.875, 0.97, 0.51, },
+					size01 = { 0.05, 0.9, },
+					velocity = { -3.19, 2.82, 0, },
+					velocityDampingFactor = 2.5,
+				},
+			},
+		},
+		roadVehicle = {
+			configs = {
+				{
+					axles = { "vehicle/truck/magirus1927/hinterraeder_lod0.msh", },
+					blinkLightsLeft = { },
+					blinkLightsRight = { },
+					brakeLights = { 9, },
+					headLights = { 8, },
+					steeringParts = { },
+					wheels = { "vehicle/truck/magirus1927/rad_lod0.msh", },
+				},
+                {
+					axles = { "vehicle/truck/magirus1927/hinterraeder_lod1.msh", },
+					blinkLightsLeft = { },
+					blinkLightsRight = { },
+					brakeLights = { 9, },
+					headLights = { 8, },
+					steeringParts = { },
+					wheels = { "vehicle/truck/magirus1927/rad_lod1.msh", },
+				},
+                {
+					axles = { "vehicle/truck/magirus1927/hinterraeder_lod2.msh", },
+					blinkLightsLeft = { },
+					blinkLightsRight = { },
+					brakeLights = { },
+					headLights = { },
+					steeringParts = { },
+					wheels = { "vehicle/truck/magirus1927/rad_lod2.msh", },
+				},
+			},
+			engine = {
+				type = "DIESEL",
+				power = 40,
+				tractiveEffort = 9,
+			},
+			soundSet = {
+				horn = "",
+				name = "truck_old",
+			},
+			topSpeed = 18.0555555,
+			weight = 2.1,
+		},
+		seatProvider = {
+			crewModels = { },
+			drivingLicense = "TRUCK",
+			seats = {
+				{
+					animation = "driving_upright",
+					crew = true,
+					forward = true,
+					group = 1,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.8, 0.47, 1.1, 1, },
+				},
+			},
+		},
+		transportVehicle = {
+			carrier = "ROAD",
+			compartments = {
+				{
+					{
+						{
+							capacity = 38,
+							type = "GOODS",
+						},
+					},
+					{
+						{
+							capacity = 38,
+							type = "MACHINES",
+						},
+					},
+					{
+						{
+							capacity = 38,
+							type = "TOOLS",
+						},
+					},
+					{
+						{
+							capacity = 38,
+							type = "FOOD",
+						},
+					},
+					{
+						{
+							capacity = 38,
+							type = "PLASTIC",
+						},
+					},
+					{
+						{
+							capacity = 38,
+							type = "CONSTRUCTION_MATERIALS",
+						},
+					},
+				},
+	        },
+			loadSpeed = 3,
+			multipleUnitOnly = false,
+			reversible = false,
+            groupFileName = "vehicle/truck/magirus1927/menu_magirus.mdl",
+		},
+	},
+	version = 1,
+}
+end
