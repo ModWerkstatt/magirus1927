@@ -305,6 +305,12 @@ return {
 							type = "GRAIN",
 						},
 					},
+					{
+						{
+							capacity = 38,
+							type = "PLANKS",
+						},
+					},
 				},
 	        },
 			loadSpeed = 3,

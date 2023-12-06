@@ -329,6 +329,21 @@ return {
 							type = "CONSTRUCTION_MATERIALS",
 						},
 					},
+					{
+						{
+							capacity = 38,
+							cargoBay = {
+								bbMax = { -0.216364, 0.827856, 2.5, },
+								bbMin = { -3.3634, -0.827856, 1.0576, },
+								cargoFormat = "SMALL",
+								childId = 1,
+								gridSize = { 4, 2 },
+								sizePolicy = "BEST_FIT",
+								type = "DISCRETE",
+							},
+							type = "PLANKS",
+						},
+					},
 				},
 	        },
 			loadSpeed = 3,
